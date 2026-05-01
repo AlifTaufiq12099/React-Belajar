@@ -1,0 +1,11 @@
+﻿[
+  { "customerId": "CUST-2001", "customerName": "Ari Saputra", "email": "ari.saputra@example.com", "phone": "0812-3456-7890", "loyalty": "Gold" },
+  { "customerId": "CUST-2002", "customerName": "Bima Pratama", "email": "bima.pratama@example.com", "phone": "0813-4567-8901", "loyalty": "Silver" },
+  { "customerId": "CUST-2003", "customerName": "Citra Lestari", "email": "citra.lestari@example.com", "phone": "0814-5678-9012", "loyalty": "Bronze" },
+  { "customerId": "CUST-2004", "customerName": "Dina Kusuma", "email": "dina.kusuma@example.com", "phone": "0815-6789-0123", "loyalty": "Gold" },
+  { "customerId": "CUST-2005", "customerName": "Eko Haryanto", "email": "eko.haryanto@example.com", "phone": "0816-7890-1234", "loyalty": "Silver" },
+  { "customerId": "CUST-2006", "customerName": "Fajar Prasetyo", "email": "fajar.prasetyo@example.com", "phone": "0817-8901-2345", "loyalty": "Bronze" },
+  { "customerId": "CUST-2028", "customerName": "Bayu Nugraha", "email": "bayu.nugraha@example.com", "phone": "0839-0123-4567", "loyalty": "Gold" },
+  { "customerId": "CUST-2029", "customerName": "Cindy Hapsari", "email": "cindy.hapsari@example.com", "phone": "0840-1234-5678", "loyalty": "Silver" },
+  { "customerId": "CUST-2030", "customerName": "Dedy Suryadi", "email": "dedy.suryadi@example.com", "phone": "0841-2345-6789", "loyalty": "Bronze" }
+]
