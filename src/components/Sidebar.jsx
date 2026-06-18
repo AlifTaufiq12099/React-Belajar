@@ -2,6 +2,7 @@
 import { FaCartArrowDown } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import { Link , NavLink} from "react-router-dom";
+import { FaRegNoteSticky } from "react-icons/fa6";
 
    
 export default function Sidebar() {
@@ -54,6 +55,16 @@ export default function Sidebar() {
                         >
                         <FaUser  className="mr-3 text-xl"/>  
                         <span>Customers</span> 
+                        </NavLink>
+                    </li>
+                     <li>
+                        <NavLink
+                        id="menu-3" 
+                        to="/notes"
+                        className={menuClass}
+                        >
+                        <FaRegNoteSticky className="mr-3 text-xl"/>  
+                        <span>Notes</span> 
                         </NavLink>
                     </li>
                 </ul>

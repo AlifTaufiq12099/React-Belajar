@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Budi Santoso",
+    "review": "Makanannya sangat enak dan pengirimannya super cepat! Sangat higienis."
+  },
+  {
+    "id": 2,
+    "name": "Siti Aminah",
+    "review": "Rasa juaranya bikin ketagihan. Aplikasi Sedap benar-benar memudahkan."
+  },
+  {
+    "id": 3,
+    "name": "Andi Darmawan",
+    "review": "Pilihan menu sangat beragam dan harganya pas di kantong. Mantap!"
+  },
+  {
+    "id": 4,
+    "name": "Rina Melati",
+    "review": "Customer service sangat responsif dan ramah. Pengalaman luar biasa."
+  },
+  {
+    "id": 5,
+    "name": "Dewi Lestari",
+    "review": "Saya suka sekali dengan promo-promonya. Bikin hemat setiap hari!"
+  }
+]

@@ -1,0 +1,25 @@
+import axios from 'axios'
+
+const API_URL = "https://kdxsrsmtrzyuovpmazwk.supabase.co/rest/v1/notes"
+const API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtkeHNyc210cnp5dW92cG1hendrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3MjI1NDgsImV4cCI6MjA5NzI5ODU0OH0.Vs0yJn3j0wMcw5Dbmdrfc_XAQje0IufboCiliSx5obk"
+
+const headers = {
+    apikey: API_KEY,
+    Authorization: `Bearer ${API_KEY}`,
+    "Content-Type": "application/json",
+}
+
+export const notesAPI = {
+    async fetchNotes() {
+        const response = await axios.get(API_URL, { headers })
+        return response.data
+    },
+
+    async createNote(data) {
+        const response = await axios.post(API_URL, data, { headers })
+        return response.data
+    },
+    async deleteNote(id) {
+        await axios.delete(`${API_URL}?id=eq.${id}`, { headers })
+    }
+}
